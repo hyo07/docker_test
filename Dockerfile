@@ -5,4 +5,5 @@ RUN git clone https://github.com/hyo07/docker_test.git
 
 WORKDIR /docker_test
 
-CMD ["python", "server.py"]
+CMD ["python", "test_dir/test.py"]
+#CMD ["ls"]
